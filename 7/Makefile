@@ -3,7 +3,7 @@
 PHP_VER ?= 7.3.3
 PHP_VER_MINOR ?= $(shell echo "${PHP_VER}" | grep -oE '^[0-9]+\.[0-9]+')
 
-REPO = wodby/php
+REPO = Desgraciado/php
 NAME = php-$(PHP_VER_MINOR)
 FROM_TAG = $(PHP_VER)
 
